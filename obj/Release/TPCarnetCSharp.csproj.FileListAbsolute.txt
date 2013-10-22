@@ -1,0 +1,6 @@
+C:\Users\JTHOMA\documents\visual studio 2012\Projects\TPCarnetCSharp\TPCarnetCSharp\bin\Release\TPCarnetCSharp.exe.config
+C:\Users\JTHOMA\documents\visual studio 2012\Projects\TPCarnetCSharp\TPCarnetCSharp\bin\Release\TPCarnetCSharp.exe
+C:\Users\JTHOMA\documents\visual studio 2012\Projects\TPCarnetCSharp\TPCarnetCSharp\bin\Release\TPCarnetCSharp.pdb
+C:\Users\JTHOMA\documents\visual studio 2012\Projects\TPCarnetCSharp\TPCarnetCSharp\obj\Release\TPCarnetCSharp.exe
+C:\Users\JTHOMA\documents\visual studio 2012\Projects\TPCarnetCSharp\TPCarnetCSharp\obj\Release\TPCarnetCSharp.pdb
+C:\Users\JTHOMA\documents\visual studio 2012\Projects\TPCarnetCSharp\TPCarnetCSharp\obj\Release\TPCarnetCSharp.csprojResolveAssemblyReference.cache
