@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TPCarnetCSharp
 {
-    class Carnet:List<Personne>
+    class Carnet : List<Personne>
     {
         #region Methods
 
@@ -83,7 +83,7 @@ namespace TPCarnetCSharp
                         this.RechercherUnePersonne();
                         break;
                     case 3:
-                        if(this.Count!=0)
+                        if (this.Count != 0)
                         {
                             this.ParcourirCarnet();
                         }
@@ -107,8 +107,8 @@ namespace TPCarnetCSharp
         /// </summary>
         public void ParcourirCarnet()
         {
-            int i=0;
-            int cas=0;
+            int i = 0;
+            int cas = 0;
             Personne p;
             do
             {
@@ -116,7 +116,8 @@ namespace TPCarnetCSharp
                 Console.WriteLine(this[i]);
                 p = this[i];
                 Console.WriteLine();
-                do{
+                do
+                {
                     Console.WriteLine("1-Suivant");
                     Console.WriteLine("2-Precedent");
                     Console.WriteLine("3-Modifier");
@@ -126,7 +127,7 @@ namespace TPCarnetCSharp
                 switch (cas)
                 {
                     case 1:
-                        if (i >= this.Count-1)
+                        if (i >= this.Count - 1)
                         {
                             i = 0;
                         }
@@ -135,10 +136,10 @@ namespace TPCarnetCSharp
                             i++;
                         }
                         break;
-                    case 2 :
+                    case 2:
                         if (i <= 0)
                         {
-                            i = this.Count-1;
+                            i = this.Count - 1;
                         }
                         else
                         {
@@ -147,7 +148,8 @@ namespace TPCarnetCSharp
                         break;
                     case 3:
                         int choix = 0;
-                        do{
+                        do
+                        {
                             this[i].ModifierPersonne();
                         } while (!int.TryParse(Console.ReadLine(), out choix));
                         this[i].ChoisirModifications(choix);
@@ -159,7 +161,7 @@ namespace TPCarnetCSharp
                         Console.WriteLine("Erreur d'instructions");
                         break;
                 }
-            } while (cas != 0 && this.Count!=0);
+            } while (cas != 0 && this.Count != 0);
         }
         #endregion
     }
